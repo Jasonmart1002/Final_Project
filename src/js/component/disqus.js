@@ -1,0 +1,24 @@
+import React, { Component } from "react";
+import Disqus from "disqus-react";
+import "../../styles/Disqus.scss";
+
+export default class Article extends Component {
+	render() {
+		const disqusShortname = "finalproject-3"; //found in your Disqus.com dashboard
+		const disqusConfig = {
+			url: "https://3000-f35affae-5763-4ad0-b985-2408c104379b.ws-us02.gitpod.io/", //this.props.pageUrl
+			identifier: "article-id", //this.props.uniqueId
+			title: "Title of Your Article" //this.props.title
+		};
+
+		return (
+			<div className="article-container">
+				<h1>Article Title</h1>
+
+				<p>Article content.</p>
+
+				<Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
+			</div>
+		);
+	}
+}
