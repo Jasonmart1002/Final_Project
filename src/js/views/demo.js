@@ -1,11 +1,9 @@
-import React, { useState, useEffect, useContext } from "react";
-import { Link } from "react-router-dom";
+import React from "react";
 
-import { Context } from "../store/appContext";
 import { Profile } from "../component/profile";
 
 import "../../styles/demo.scss";
 
-export const Demo = () => {
+export const Profiles = () => {
 	return <Profile />;
 };
