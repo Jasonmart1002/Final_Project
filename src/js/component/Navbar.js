@@ -34,6 +34,11 @@ export function Navbar() {
 								Login
 							</a>
 						</li>
+						<li className="nav-item">
+							<a className="nav-link" href="/demo">
+								Profile
+							</a>
+						</li>
 						<li className="nav-item dropdown">
 							<a
 								className="nav-link dropdown-toggle"
