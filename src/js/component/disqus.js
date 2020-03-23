@@ -13,9 +13,9 @@ export default class Article extends Component {
 
 		return (
 			<div className="article-container">
-				<h1>Article Title</h1>
+				<h1>League Of Legends</h1>
 
-				<p>Article content.</p>
+				<p>Talk about this game!</p>
 
 				<Disqus.DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
 			</div>
