@@ -18,30 +18,34 @@ export function Navbar() {
 					aria-label="Toggle navigation">
 					<span className="navbar-toggler-icon" />
 				</button>
-				<a className="navbar-brand" href="/">
+				<a className="navbar-brand ripple" href="/">
 					Final Project
 				</a>
 
 				<div className="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul className="navbar-nav mr-auto">
 						<li className="nav-item active">
-							<a className="nav-link" href="/">
+							<a className="nav-link ripple" href="/">
 								Home <span className="sr-only">(current)</span>
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="/" data-toggle="modal" data-target="#exampleModalCenter">
+							<a
+								className="nav-link ripple"
+								href="/"
+								data-toggle="modal"
+								data-target="#exampleModalCenter">
 								Login
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="/demo">
+							<a className="nav-link ripple" href="/demo">
 								Profile
 							</a>
 						</li>
 						<li className="nav-item dropdown">
 							<a
-								className="nav-link dropdown-toggle"
+								className="nav-link dropdown-toggle ripple"
 								href="#"
 								id="navbarDropdown"
 								role="button"

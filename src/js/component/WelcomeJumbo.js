@@ -13,14 +13,14 @@ export function WelcomeJumbo() {
 					This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
 					featured content or information.
 				</p>
-				<a
-					className="btn btn-primary btn-lg "
+				<button
+					className="btn btn-primary btn-lg ripple"
 					href="/"
 					role="button"
 					data-toggle="modal"
 					data-target="#signUpModal">
 					Sign up
-				</a>
+				</button>
 			</div>
 			<div
 				className="modal fade"

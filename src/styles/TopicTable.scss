@@ -1,6 +1,21 @@
 .gameCard {
     width: 200px;
     max-width: 200px;
+    min-width: 200px;
     height: 300px;
     margin: auto;
+}
+
+.tableContainer{
+    padding: 0px;
+}
+
+.favbtn {
+    width: 40px; 
+    height: 40px; 
+    padding: 6px 0px; 
+    border-radius: 30px; 
+    font-size: 8px; 
+    text-align: center;
+    border: none;
 }

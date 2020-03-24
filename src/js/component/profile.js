@@ -4,11 +4,15 @@ import "../../styles/Profile.scss";
 export function Profile() {
 	return (
 		<>
-			<div className="container">
+			<div className="container profileContainer">
 				<div className="card mb-3 profileBox" styles="max-width: 540px;">
 					<div className="row no-gutters">
 						<div className="col-md-4">
-							<img src="https://via.placeholder.com/300" className="card-img profilePic" alt="..." />
+							<img
+								src="https://cdn.vox-cdn.com/thumbor/zSmSMeiUygGb3OYcT_SgAvNXfmA=/0x47:836x604/1400x1400/filters:focal(0x47:836x604):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/29978345/1912315_10152052414208719_1792210132_n.0.png"
+								className="card-img profilePic"
+								alt="..."
+							/>
 						</div>
 						<div className="col-md-8">
 							<div className="card-body">
@@ -23,7 +27,7 @@ export function Profile() {
 					</div>
 				</div>
 			</div>
-			<div className="container">
+			<div className="container profileContainer">
 				<h2 className="text-center">Favorite Games</h2>
 				<div className="card-deck profileCardDeck">
 					<div className="card gameCard">
