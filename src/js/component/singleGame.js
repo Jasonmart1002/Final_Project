@@ -8,14 +8,18 @@ export function SingleGame() {
 		<>
 			<div className="container text-center">
 				<div className="card singleGameCard">
-					<img src="https://via.placeholder.com/300x500" className="card-img" alt="..." />
+					<img
+						src="https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends.jpg"
+						className="card-img singleGameCardimg"
+						alt="..."
+					/>
 					<div className="card-img-overlay">
-						<h5 className="card-title">League of legends</h5>
-						<p className="card-text">
+						{/* <h5 className="card-title">League of legends</h5> */}
+						{/* <p className="card-text">
 							This is a wider card with supporting text below as a natural lead-in to additional content.
 							This content is a little bit longer.
 						</p>
-						<p className="card-text">Last updated 3 mins ago</p>
+						<p className="card-text">Last updated 3 mins ago</p> */}
 					</div>
 				</div>
 				<p>
