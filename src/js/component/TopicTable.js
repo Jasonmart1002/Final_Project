@@ -48,9 +48,12 @@ export function TopicTable() {
 				{/* </Link> */}
 				{/* <Link to="/single"> */}
 				<div className="card gameCard hover">
-					<img src="https://via.placeholder.com/150x300" className="card-img gameCard" alt="..." />
+					<img
+						src="https://ubistatic19-a.akamaihd.net/ubicomstatic/en-us/global/game-info/ac1_nakedbox_mobile_164648.jpg"
+						className="card-img gameCard"
+						alt="..."
+					/>
 					<div className="card-img-overlay">
-						<h5 className="card-title">Sonic</h5>
 						<p className="card-text text-right">
 							<button type="button" className="btn btn-primary favbtn ripple constantHover">
 								<i className="fas fa-plus" />
@@ -61,9 +64,12 @@ export function TopicTable() {
 				{/* </Link> */}
 				{/* <Link to="/single"> */}
 				<div className="card gameCard hover">
-					<img src="https://via.placeholder.com/150x300" className="card-img gameCard" alt="..." />
+					<img
+						src="https://store-images.s-microsoft.com/image/apps.13587.70644597693904836.cde9dd08-509f-4054-8190-24728e59ad5e.b122adbd-e812-41be-bc09-4dd7b0078036?mode=scale&q=90&h=300&w=200"
+						className="card-img gameCard"
+						alt="..."
+					/>
 					<div className="card-img-overlay">
-						<h5 className="card-title">Grand Theft Auto</h5>
 						<p className="card-text text-right">
 							<button type="button" className="btn btn-primary favbtn ripple constantHover">
 								<i className="fas fa-plus" />
@@ -74,9 +80,12 @@ export function TopicTable() {
 				{/* </Link> */}
 				{/* <Link to="/single"> */}
 				<div className="card gameCard hover">
-					<img src="https://via.placeholder.com/150x300" className="card-img gameCard" alt="..." />
+					<img
+						src="https://www.residentevil.com/_asset/images/re2-panel.jpg"
+						className="card-img gameCard"
+						alt="..."
+					/>
 					<div className="card-img-overlay">
-						<h5 className="card-title">Resident Evil</h5>
 						<p className="card-text text-right">
 							<button type="button" className="btn btn-primary favbtn ripple constantHover">
 								<i className="fas fa-plus" />
