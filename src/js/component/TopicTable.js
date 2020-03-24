@@ -21,7 +21,7 @@ export function TopicTable() {
 							<p className="card-text text-right">
 								<button
 									type="button"
-									className="btn btn-primary favbtn ripple"
+									className="btn btn-primary favbtn ripple constantHover"
 									onClick={e => setFavorite(true)}>
 									<i className="fas fa-plus" />
 								</button>
@@ -39,7 +39,7 @@ export function TopicTable() {
 					<div className="card-img-overlay">
 						{/* <h5 className="card-title">Team Fortress 2</h5> */}
 						<p className="card-text text-right">
-							<button type="button" className="btn btn-primary favbtn ripple">
+							<button type="button" className="btn btn-primary favbtn ripple constantHover">
 								<i className="fas fa-plus" />
 							</button>
 						</p>
@@ -52,7 +52,7 @@ export function TopicTable() {
 					<div className="card-img-overlay">
 						<h5 className="card-title">Sonic</h5>
 						<p className="card-text text-right">
-							<button type="button" className="btn btn-primary favbtn ripple">
+							<button type="button" className="btn btn-primary favbtn ripple constantHover">
 								<i className="fas fa-plus" />
 							</button>
 						</p>
@@ -65,7 +65,7 @@ export function TopicTable() {
 					<div className="card-img-overlay">
 						<h5 className="card-title">Grand Theft Auto</h5>
 						<p className="card-text text-right">
-							<button type="button" className="btn btn-primary favbtn ripple">
+							<button type="button" className="btn btn-primary favbtn ripple constantHover">
 								<i className="fas fa-plus" />
 							</button>
 						</p>
@@ -78,7 +78,7 @@ export function TopicTable() {
 					<div className="card-img-overlay">
 						<h5 className="card-title">Resident Evil</h5>
 						<p className="card-text text-right">
-							<button type="button" className="btn btn-primary favbtn ripple">
+							<button type="button" className="btn btn-primary favbtn ripple constantHover">
 								<i className="fas fa-plus" />
 							</button>
 						</p>
