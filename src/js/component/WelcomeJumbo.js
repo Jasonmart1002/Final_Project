@@ -14,7 +14,7 @@ export function WelcomeJumbo() {
 					featured content or information.
 				</p>
 				<button
-					className="btn btn-primary btn-lg ripple"
+					className="btn btn-success btn-lg ripple"
 					href="/"
 					role="button"
 					data-toggle="modal"

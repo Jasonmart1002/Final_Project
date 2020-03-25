@@ -21,7 +21,7 @@ export function TopicTable() {
 							<p className="card-text text-right">
 								<button
 									type="button"
-									className="btn btn-primary favbtn ripple constantHover"
+									className="btn btn-success favbtn ripple constantHover"
 									onClick={e => setFavorite(true)}>
 									<i className="fas fa-plus" />
 								</button>
@@ -39,7 +39,7 @@ export function TopicTable() {
 					<div className="card-img-overlay">
 						{/* <h5 className="card-title">Team Fortress 2</h5> */}
 						<p className="card-text text-right">
-							<button type="button" className="btn btn-primary favbtn ripple constantHover">
+							<button type="button" className="btn btn-success favbtn ripple constantHover">
 								<i className="fas fa-plus" />
 							</button>
 						</p>
@@ -55,7 +55,7 @@ export function TopicTable() {
 					/>
 					<div className="card-img-overlay">
 						<p className="card-text text-right">
-							<button type="button" className="btn btn-primary favbtn ripple constantHover">
+							<button type="button" className="btn btn-success favbtn ripple constantHover">
 								<i className="fas fa-plus" />
 							</button>
 						</p>
@@ -71,7 +71,7 @@ export function TopicTable() {
 					/>
 					<div className="card-img-overlay">
 						<p className="card-text text-right">
-							<button type="button" className="btn btn-primary favbtn ripple constantHover">
+							<button type="button" className="btn btn-success favbtn ripple constantHover">
 								<i className="fas fa-plus" />
 							</button>
 						</p>
@@ -87,7 +87,7 @@ export function TopicTable() {
 					/>
 					<div className="card-img-overlay">
 						<p className="card-text text-right">
-							<button type="button" className="btn btn-primary favbtn ripple constantHover">
+							<button type="button" className="btn btn-success favbtn ripple constantHover">
 								<i className="fas fa-plus" />
 							</button>
 						</p>
