@@ -9,11 +9,11 @@
 
 
 .nav-link:hover {
-    background-color: green;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .navbar-brand:hover{
-    background-color: green;
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .modal {
@@ -21,14 +21,14 @@
 }
 
 .modal-body {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border: none;
 }
 .modal-header {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     border: none;
 }
 
 .fa-times-circle {
-    color: white;
+    color: rgb(0, 0, 0);
 }
