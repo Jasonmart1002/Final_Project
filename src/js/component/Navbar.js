@@ -7,7 +7,7 @@ export function Navbar() {
 
 	return (
 		<>
-			<nav className="navbar navbar-expand-lg sticky-top">
+			<nav className="navbar navbar-expand-lg">
 				<button
 					className="navbar-toggler"
 					type="button"
