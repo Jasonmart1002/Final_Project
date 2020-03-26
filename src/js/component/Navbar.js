@@ -7,7 +7,7 @@ export function Navbar() {
 
 	return (
 		<>
-			<nav className="navbar navbar-expand-lg">
+			<nav className="navbar navbar-expand-lg sticky-top">
 				<button
 					className="navbar-toggler"
 					type="button"
@@ -16,7 +16,7 @@ export function Navbar() {
 					aria-controls="navbarSupportedContent"
 					aria-expanded="false"
 					aria-label="Toggle navigation">
-					<span className="navbar-toggler-icon" />
+					<i className="fas fa-bars" />
 				</button>
 				<a className="navbar-brand ripple" href="/">
 					Final Project
@@ -95,7 +95,7 @@ export function Navbar() {
 								Login
 							</h5>
 							<button type="button" className="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
+								<i className="far fa-times-circle" />
 							</button>
 						</div>
 						<div className="modal-body">
@@ -121,7 +121,7 @@ export function Navbar() {
 										value={password}
 									/>
 								</div>
-								<button type="submit" className="btn btn-primary">
+								<button type="submit" className="btn btn-success">
 									Submit
 								</button>
 							</form>

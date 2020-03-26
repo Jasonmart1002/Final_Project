@@ -36,7 +36,7 @@ export function WelcomeJumbo() {
 								Sign up
 							</h5>
 							<button type="button" className="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
+								<i className="far fa-times-circle" />
 							</button>
 						</div>
 						<div className="modal-body">
@@ -73,7 +73,7 @@ export function WelcomeJumbo() {
 										value={email}
 									/>
 								</div>
-								<button type="submit" className="btn btn-primary">
+								<button type="submit" className="btn btn-success">
 									Submit
 								</button>
 							</form>
