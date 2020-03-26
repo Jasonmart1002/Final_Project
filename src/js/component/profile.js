@@ -5,6 +5,7 @@ export function Profile() {
 	return (
 		<>
 			<div className="card profileBox text-center align-items-center pt-3 mb-4 mx-auto">
+				<div className="card-header">User Name</div>
 				<img
 					src="https://cdn.vox-cdn.com/thumbor/zSmSMeiUygGb3OYcT_SgAvNXfmA=/0x47:836x604/1400x1400/filters:focal(0x47:836x604):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/29978345/1912315_10152052414208719_1792210132_n.0.png"
 					className="card-img-top profilePic"
