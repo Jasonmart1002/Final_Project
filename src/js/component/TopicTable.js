@@ -11,22 +11,20 @@ export function TopicTable() {
 	return (
 		<div className="container tableContainer">
 			<h2 className="text-center">Games Of The Day</h2>
-			<div className="row row-cols-1 row-cols-md-4">
+			<div className="row row-cols-3 row-cols-md-4 gameCardBox">
 				{!store.games
 					? "Loading..."
 					: store.games.map((t, index) => (
-							<div className="col mb-4" key={index}>
-								<div className="card">
-									<img src={t.background_image} className="card-img-top" alt="..." />
-									<div className="card-body">
-										<h5 className="card-title">{t.name}</h5>
-										<p className="card-text">
-											This is a longer card with supporting text below as a natural lead-in to
-											additional content. This content is a little bit longer.
-										</p>
+							<Link to="/single" key={index}>
+								<div className="col mb-4" key={index}>
+									<div className="card gameCard text-center">
+										<img src={t.background_image} className="card-img-top gameCardImg" alt="..." />
+										<div className="card-body">
+											<h5 className="card-title">{t.name}</h5>
+										</div>
 									</div>
 								</div>
-							</div>
+							</Link>
 					  ))}
 			</div>
 		</div>
