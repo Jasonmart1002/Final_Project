@@ -22,15 +22,13 @@ const injectContext = PassedComponent => {
 		);
 
 		useEffect(() => {
-			/**
-			 * EDIT THIS!
-			 * This function is the equivalent to "window.onLoad", it only runs once on the entire application lifetime
-			 * you should do your ajax requests or fetch api requests here. Do not use setState() to save data in the
-			 * store, instead use actions, like this:
-			 *
-			 * state.actions.loadSomeData(); <---- calling this function from the flux.js actions
-			 *
-			 **/
+			fetch("https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-added")
+				.then(r => r.json())
+				// .then(data => setTasks(data.results));
+				.then(data => {
+					let { store } = state;
+					setState({ store: { ...store, games: data.results } });
+				});
 		}, []);
 
 		// The initial value for the context is not null anymore, but the current state of this component,
