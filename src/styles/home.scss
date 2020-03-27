@@ -1,10 +1,11 @@
-$greenhover: rgb(159, 255, 159);
 
 body {
     color: black;
-    background: linear-gradient(115deg, #28a745 20%, #ffffff 20%);
+    background: linear-gradient(115deg, #27a7b8 20%, #ffffff 20%);
     background-repeat: no-repeat;
 }
+
+// #28a745
 
 
 /* Ripple effect */
@@ -13,10 +14,10 @@ body {
   transition: background 0.8s;
 }
 .ripple:hover {
-  background: $greenhover radial-gradient(circle, transparent 1%, $greenhover 1%) center/15000%;
+  background: rgba(16, 90, 95, 0.774) radial-gradient(circle, transparent 1%, rgba(16, 90, 95, 0.774) 1%) center/15000%;
 }
 .ripple:active {
-  background-color: $greenhover;
+  background-color: rgba(16, 90, 95, 0.774);
   background-size: 100%;
   transition: background 0s;
 }
@@ -30,7 +31,7 @@ button {
   text-transform: uppercase;
   cursor: pointer;
   color: white;
-  background-color: $greenhover;
+  background-color: rgba(16, 90, 95, 0.774);
   box-shadow: 0 0 4px #999;
   outline: none;
 }

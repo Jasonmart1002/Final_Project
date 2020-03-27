@@ -5,12 +5,14 @@ import { Link } from "react-router-dom";
 export function TopicTable() {
 	const [favorite, setFavorite] = useState(false);
 
+	// GET https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-added
+
 	return (
 		<div className="container tableContainer">
 			<h2 className="text-center">Games Of The Day</h2>
 			<div className="card-deck homeCardDeck justify-content-center">
 				<Link to="/single">
-					<div className="card gameCard hover">
+					<div className="card gameCard">
 						<img
 							src="https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends.jpg"
 							className="card-img gameCard"
@@ -30,7 +32,7 @@ export function TopicTable() {
 					</div>
 				</Link>
 				{/* <Link to="/single"> */}
-				<div className="card gameCard hover">
+				<div className="card gameCard">
 					<img
 						src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Tf2_standalonebox.jpg/220px-Tf2_standalonebox.jpg"
 						className="card-img gameCard"
@@ -47,7 +49,7 @@ export function TopicTable() {
 				</div>
 				{/* </Link> */}
 				{/* <Link to="/single"> */}
-				<div className="card gameCard hover">
+				<div className="card gameCard">
 					<img
 						src="https://ubistatic19-a.akamaihd.net/ubicomstatic/en-us/global/game-info/ac1_nakedbox_mobile_164648.jpg"
 						className="card-img gameCard"
@@ -63,7 +65,7 @@ export function TopicTable() {
 				</div>
 				{/* </Link> */}
 				{/* <Link to="/single"> */}
-				<div className="card gameCard hover">
+				<div className="card gameCard">
 					<img
 						src="https://store-images.s-microsoft.com/image/apps.13587.70644597693904836.cde9dd08-509f-4054-8190-24728e59ad5e.b122adbd-e812-41be-bc09-4dd7b0078036?mode=scale&q=90&h=300&w=200"
 						className="card-img gameCard"
@@ -79,7 +81,7 @@ export function TopicTable() {
 				</div>
 				{/* </Link> */}
 				{/* <Link to="/single"> */}
-				<div className="card gameCard hover">
+				<div className="card gameCard">
 					<img
 						src="https://www.residentevil.com/_asset/images/re2-panel.jpg"
 						className="card-img gameCard"
