@@ -17,23 +17,23 @@ export function TopicTable() {
 				{!store.games
 					? "Loading..."
 					: store.games.map((t, index) => (
-							// <Link to="/single" key={index}>
-							<div className="col mb-4" key={index}>
-								<div
-									className="card gameCard text-center"
-									onClick={() => {
-										setSingleGameName(t.name);
-										setSingleGamePic(t.background_image);
-										console.log({ singleGameName });
-										console.log({ singleGamePic });
-									}}>
-									<img src={t.background_image} className="card-img-top gameCardImg" alt="..." />
-									<div className="card-body">
-										<h5 className="card-title">{t.name}</h5>
+							<Link to="/single" key={index}>
+								<div className="col mb-4" key={index}>
+									<div
+										className="card gameCard text-center"
+										onClick={() => {
+											setSingleGameName(t.name);
+											setSingleGamePic(t.background_image);
+											console.log({ singleGameName });
+											console.log({ singleGamePic });
+										}}>
+										<img src={t.background_image} className="card-img-top gameCardImg" alt="..." />
+										<div className="card-body">
+											<h5 className="card-title">{t.name}</h5>
+										</div>
 									</div>
 								</div>
-							</div>
-							// </Link>
+							</Link>
 					  ))}
 			</div>
 		</div>

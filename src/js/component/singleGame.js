@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/SingleGame.scss";
+import singleGamePic from "./TopicTable";
 
 import Article from "./disqus";
 
@@ -8,19 +9,8 @@ export function SingleGame() {
 		<>
 			<div className="container text-center">
 				<div className="card singleGameCard">
-					<img
-						src="https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends.jpg"
-						className="card-img singleGameCardimg"
-						alt="..."
-					/>
-					<div className="card-img-overlay">
-						{/* <h5 className="card-title">League of legends</h5> */}
-						{/* <p className="card-text">
-							This is a wider card with supporting text below as a natural lead-in to additional content.
-							This content is a little bit longer.
-						</p>
-						<p className="card-text">Last updated 3 mins ago</p> */}
-					</div>
+					<img src={singleGamePic} className="card-img singleGameCardimg" alt="..." />
+					<div className="card-img-overlay">{/* <h5 className="card-title">{singleGameName}</h5> */}</div>
 				</div>
 				<p>
 					Be quiet! And the hat. Shes a witch! Shut up! Well, we did do the nose. You cant expect to wield

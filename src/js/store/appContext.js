@@ -24,7 +24,6 @@ const injectContext = PassedComponent => {
 		useEffect(() => {
 			fetch("https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-added")
 				.then(r => r.json())
-				// .then(data => setTasks(data.results));
 				.then(data => {
 					let { store } = state;
 					setState({ store: { ...store, games: data.results } });
