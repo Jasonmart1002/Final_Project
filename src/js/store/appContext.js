@@ -22,7 +22,7 @@ const injectContext = PassedComponent => {
 		);
 
 		useEffect(() => {
-			fetch("https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-added")
+			fetch("https://api.rawg.io/api/games?key=e0e3d5948356469db314adad6f13940f&dates=2019-09-01,2019-09-30&platforms=18,1,7")
 				.then(r => r.json())
 				.then(data => {
 					let { store } = state;
